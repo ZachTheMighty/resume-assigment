@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  color: #525252;
+  font-family: monospace;
+  font-size: 16px;
+  height: 100vh;
+  padding: 40px 30px;
+}
+
+.head
+{
+    font-style: italic;
+}
+
+.name
+{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.position
+{
+    font-size: 20px;
+    word-spacing: -7px;
+}
