@@ -5,6 +5,8 @@ body {
   font-size: 16px;
   height: 100vh;
   padding: 40px 30px;
+  word-spacing: -5px;
+  letter-spacing: -1px;
 }
 
 .font-weight
@@ -15,6 +17,14 @@ body {
 .head
 {
     font-style: italic;
+}
+
+.header
+{
+    background-color: #EEEEEE;
+    font-weight: 500;
+    padding: 2px 12px;
+    margin-bottom: 16px;
 }
 
 .name
@@ -31,19 +41,24 @@ body {
     margin-bottom: 45px;
 }
 
-.objectives-header
-{
-    background-color: #EEEEEE;
-    font-weight: 500;
-    padding: 2px 12px;
-    margin-bottom: 16px;
-}
-
 .objectives-content
 {
-    word-spacing: -5px;
-    letter-spacing: -1px;
     margin-bottom: 45px;
 }
 
+ul li::marker
+{
+    color: #F78A3E;
+    font-size: 40px;
+}
 
+.job-title
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.job-location
+{
+    color: #F78A3E;
+}
