@@ -75,8 +75,7 @@ ul li::marker {
   margin-bottom: 16px;
 }
 
-.personal-box
-{
+.personal-box {
   display: flex;
   justify-content: space-between;
 }
@@ -118,4 +117,14 @@ ul li::marker {
   width: 8px;
   height: 8px;
   margin-left: 8px;
+}
+
+.contact-content div {
+  display: flex;
+  gap: 6px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
 }
