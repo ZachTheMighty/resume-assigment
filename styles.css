@@ -75,6 +75,12 @@ ul li::marker {
   margin-bottom: 16px;
 }
 
+.personal-box
+{
+  display: flex;
+  justify-content: space-between;
+}
+
 .mini-header {
   font-weight: bold;
   line-height: 10px;
@@ -97,9 +103,10 @@ ul li::marker {
 .english-level {
   margin-right: 8px;
   margin-top: 2px;
+  margin-bottom: 16px;
 }
 
-.level span {
+.level div {
   width: 24px;
   height: 24px;
   background-color: #f78a3e;
