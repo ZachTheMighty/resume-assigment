@@ -9,56 +9,54 @@ body {
   letter-spacing: -1px;
 }
 
-.font-weight
-{
-    font-weight: 300;
+.font-weight {
+  font-weight: 300;
 }
 
-.head
-{
-    font-style: italic;
+.head {
+  font-style: italic;
 }
 
-.header
-{
-    background-color: #EEEEEE;
-    font-weight: 500;
-    padding: 2px 12px;
-    margin-bottom: 16px;
+.header {
+  background-color: #eeeeee;
+  font-weight: 500;
+  padding: 2px 12px;
+  margin-bottom: 16px;
 }
 
-.name
-{
-    font-size: 45px;
-    font-weight: 900;
-    line-height: 45px;
+.name {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 45px;
 }
 
-.position
-{
-    font-size: 20px;
-    word-spacing: -7px;
-    margin-bottom: 45px;
+.position {
+  font-size: 20px;
+  word-spacing: -7px;
+  margin-bottom: 45px;
 }
 
-.objectives-content
-{
-    margin-bottom: 45px;
+.objectives-content {
+  margin-bottom: 45px;
 }
 
-ul li::marker
-{
-    color: #F78A3E;
-    font-size: 40px;
+.experience,
+.education {
+  line-height: 20px;
 }
 
-.job-title
-{
-    font-weight: bold;
-    font-size: 20px;
+ul li::marker {
+  color: #f78a3e;
+  font-size: 40px;
 }
 
-.job-location
-{
-    color: #F78A3E;
+.job-title,
+.education-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.job-location,
+.education-location {
+  color: #f78a3e;
 }
