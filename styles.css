@@ -1,34 +1,49 @@
 body {
+  min-height: 100vh;
   display: flex;
-  justify-content: space-around;
-  gap: 56px;
-  color: #525252;
-  font-family: monospace;
+  flex-flow: column nowrap;
+  color: white;
+  font-family: system-ui;
   font-size: 16px;
-  height: 100vh;
-  padding: 40px 30px;
-  word-spacing: -5px;
-  letter-spacing: -1px;
+  margin: 0;
+}
+
+#header {
+  font-style: italic;
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 32px 0;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  color: #1a1a1a;
+  background-color: #878787;
+  padding: 32px 12px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .right-container,
 .left-container {
   flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .font-weight {
   font-weight: 300;
 }
 
-.head {
-  font-style: italic;
-}
-
 .header {
-  background-color: #eeeeee;
+  color: white;
+  background-color: #1a1a1a;
   font-weight: 500;
   padding: 2px 12px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .name {
@@ -39,8 +54,6 @@ body {
 
 .position {
   font-size: 20px;
-  word-spacing: -7px;
-  margin-bottom: 45px;
 }
 
 .objectives-content {
@@ -52,20 +65,11 @@ body {
   line-height: 20px;
 }
 
-ul li::marker {
-  color: #f78a3e;
-  font-size: 40px;
-}
 
 .job-title,
 .education-title {
   font-weight: bold;
   font-size: 20px;
-}
-
-.job-location,
-.education-location {
-  color: #f78a3e;
 }
 
 .personal {
@@ -83,6 +87,11 @@ ul li::marker {
 .mini-header {
   font-weight: bold;
   line-height: 10px;
+}
+
+.lang {
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .arabic,
@@ -108,15 +117,20 @@ ul li::marker {
 .level div {
   width: 24px;
   height: 24px;
-  background-color: #f78a3e;
+  background-color: white;
   border-radius: 50%;
 }
 
-#last-dot {
-  background-color: #525252;
+.level .last {
+  background-color: #1a1a1a;
   width: 8px;
   height: 8px;
   margin-left: 8px;
+}
+
+.level .last-dot
+{
+  margin-left: 16px;
 }
 
 .contact-content div {
@@ -127,4 +141,14 @@ ul li::marker {
 img {
   width: 20px;
   height: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px;
 }
