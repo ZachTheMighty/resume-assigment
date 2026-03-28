@@ -1,5 +1,7 @@
 body {
   display: flex;
+  justify-content: space-around;
+  gap: 56px;
   color: #525252;
   font-family: monospace;
   font-size: 16px;
@@ -7,6 +9,11 @@ body {
   padding: 40px 30px;
   word-spacing: -5px;
   letter-spacing: -1px;
+}
+
+.right-container,
+.left-container {
+  flex: 1;
 }
 
 .font-weight {
@@ -65,9 +72,43 @@ ul li::marker {
   display: flex;
   flex-flow: column nowrap;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
 .mini-header {
   font-weight: bold;
   line-height: 10px;
+}
+
+.arabic,
+.english {
+  display: flex;
+  justify-content: space-between;
+}
+
+.level {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.english-level {
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.level span {
+  width: 24px;
+  height: 24px;
+  background-color: #f78a3e;
+  border-radius: 50%;
+}
+
+#last-dot {
+  background-color: #525252;
+  width: 8px;
+  height: 8px;
+  margin-left: 8px;
 }
