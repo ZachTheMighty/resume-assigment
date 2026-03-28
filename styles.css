@@ -60,3 +60,14 @@ ul li::marker {
 .education-location {
   color: #f78a3e;
 }
+
+.personal {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.mini-header {
+  font-weight: bold;
+  line-height: 10px;
+}
